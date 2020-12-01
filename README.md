@@ -167,7 +167,7 @@ Based on the user inputs the program conducts the following query:
 
 The results from the query are uploaded through the API to a Spotify playlist in the user's account.
 
-![Playlist GUI] (https://github.com/WalterMiguelS/Spotify-Personal-Assistant/blob/main/playlist%20maker.jpg)
+![Playlist GUI](https://github.com/WalterMiguelS/Spotify-Personal-Assistant/blob/main/playlist%20maker.jpg)
 
 ## Thanks
 A special word of thanks to the Harvard CS50 staff to put together such an amazing course. Cheers.
