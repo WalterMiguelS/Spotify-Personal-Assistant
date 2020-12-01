@@ -122,7 +122,7 @@ The program conducts the following queries:
     The program fetches the url jpg file for each of the top artists, converts them to PNG and displays them in the bottom frame of the GUI.
 5. The user has the option to request a CSV file containing detailed information on listening history for further data analytics. For this project Tableau was used.
 6. The following image shows the GUI output.
-[Report Gui]()
+[Report Gui](https://github.com/WalterMiguelS/Spotify-Personal-Assistant/blob/main/reporting%20gui.jpg)
 
 ## Playlist creation
 Program: playlist_gui.py The cornerstone of the application suite is the ability to create dynamic playlists. Several playlist creators are available online, however I have not been able to find any that gives the user the ability to dynamically create playlists that take into consideration the play history. This playlist generator gives the user the ability to limit song repetition if she/he so desires.
