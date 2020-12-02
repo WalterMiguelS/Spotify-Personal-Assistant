@@ -91,11 +91,11 @@ The program conducts the following queries:
 2. Ten most listened songs in the requested period. Conducts the following query:
 
     ```
-        command = f""" SELECT strftime ('%Y', timestamp) as year, song, artist,
-        count(song) as n FROM history
+        f""" SELECT strftime ('%Y', timestamp) as year, song, artist, history.id,
+        count(history.id) as n FROM history
         INNER JOIN tracks on tracks.id = history.id
         INNER JOIN artists ON tracks.main_artist_id = artists.artist_id
-        where year = {year} group by song order by n desc limit 10 """
+        where year = {year} group by history.id order by n desc limit 10 """
 
     ```
     The results are displayed in the GUI first column.
